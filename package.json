@@ -14,13 +14,11 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "autoprefixer": "^10.4.20",
-    "browser-sync": "^3.0.3",
     "cssnano": "^7.0.6",
     "esbuild": "^0.24.2",
     "postcss": "^8.4.49",
     "postcss-import": "^16.1.0",
     "prettier": "^3.4.2",
-    "rimraf": "^6.0.1",
-    "terser": "^5.37.0"
+    "rimraf": "^6.0.1"
   }
 }
