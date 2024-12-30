@@ -1,0 +1,19 @@
+@import "./components/_header.css";
+
+/* ベース */
+html {
+  font-family: system-ui, sans-serif;
+  background-color: v.$primary-color;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  width: 100%;
+  max-width: 1200px;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "サイト名",
+  "description": "サイトの説明",
+  "url": "https://example.com",
+  "keywords": "キーワード1, キーワード2, キーワード3",
+  "ogpImage": "https://example.com/ogp.jpg",
+  "ogpUrl": "https://example.com"
+}
