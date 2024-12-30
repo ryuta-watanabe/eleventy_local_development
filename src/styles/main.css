@@ -1,9 +1,63 @@
+@import "./base/_reset.css";
 @import "./components/_header.css";
+
+:root {
+  /* コンテンツ幅 */
+  --content-width-sm: 640px;
+  --content-width-md: 768px;
+  --content-width-lg: 1024px;
+  --content-width-xl: 1200px;
+  --content-width-2xl: 1536px;
+
+  /* カラーパレット */
+  --color-primary: #3b82f6;
+  --color-primary-dark: #1d4ed8;
+  --color-primary-light: #60a5fa;
+
+  --color-secondary: #10b981;
+  --color-secondary-dark: #059669;
+  --color-secondary-light: #34d399;
+
+  /* テキストカラー */
+  --color-text: #1f2937;
+  --color-text-light: #6b7280;
+  --color-text-lighter: #9ca3af;
+
+  /* 背景色 */
+  --color-background: #ffffff;
+  --color-background-alt: #f3f4f6;
+  --color-background-dark: #e5e7eb;
+
+  /* アクセントカラー */
+  --color-accent: #f59e0b;
+  --color-error: #ef4444;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+
+  /* スペーシング */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* ボーダー */
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 1rem;
+  --border-width: 1px;
+  --border-color: #e5e7eb;
+
+  /* シャドウ */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
 
 /* ベース */
 html {
   font-family: system-ui, sans-serif;
-  background-color: v.$primary-color;
+  background-color: var(--color-background);
 }
 
 body {
@@ -13,7 +67,7 @@ body {
 
 main {
   margin: auto;
-  padding: 1rem;
+  padding: var(--spacing-md);
   width: 100%;
-  max-width: 1200px;
+  max-width: var(--content-width-xl);
 }
