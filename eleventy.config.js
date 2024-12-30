@@ -6,7 +6,7 @@ const cssnano = require("cssnano");
 const esbuild = require("esbuild");
 const prettier = require("prettier");
 
-module.exports = (eleventyConfig) => {
+module.exports = async (eleventyConfig) => {
   // CSSのビルド
   eleventyConfig.addTemplateFormats("css");
   eleventyConfig.addExtension("css", {
@@ -84,6 +84,7 @@ module.exports = (eleventyConfig) => {
       input: "src",
       output: "dist",
       includes: "_includes",
+      layouts: "_layouts",
       data: "_data",
     },
   };
