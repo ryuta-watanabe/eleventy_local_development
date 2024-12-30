@@ -11,8 +11,10 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
     "esbuild": "^0.24.2",
