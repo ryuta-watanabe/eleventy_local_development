@@ -37,7 +37,7 @@ module.exports = async (eleventyConfig) => {
   });
 
   // JSファイルのバンドル
-  eleventyConfig.on("beforeBuild", async () => {
+  eleventyConfig.on("eleventy.before", async () => {
     const isProduction = process.env.NODE_ENV === "production"; // 環境変数で判定
     const jsFiles = [
       "src/scripts/main.js", // 他のファイルをここに追加可能
