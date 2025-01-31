@@ -1,3 +1,3 @@
-import { greet } from "./modules/greet.js";
+import { greet } from './modules/greet.js';
 
-greet("Eleventy + esbuild");
+greet('Eleventy + esbuild');

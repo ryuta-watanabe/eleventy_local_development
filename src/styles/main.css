@@ -1,5 +1,5 @@
-@import "./base/_reset.css";
-@import "./components/_header.css";
+@import './base/_reset.css';
+@import './components/_header.css';
 
 :root {
   /* コンテンツ幅 */
@@ -70,4 +70,9 @@ main {
   padding: var(--spacing-md);
   width: 100%;
   max-width: var(--content-width-xl);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

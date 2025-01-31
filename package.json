@@ -1,24 +1,29 @@
 {
   "name": "eleventy_local_dev",
+  "type": "module",
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && NODE_ENV=production eleventy",
     "build:dev": "npm run clean && NODE_ENV=development eleventy",
-    "watch": "eleventy --watch",
-    "start": "NODE_ENV=development eleventy --serve"
+    "dev": "eleventy --watch",
+    "start": "NODE_ENV=development eleventy --serve",
+    "format:check": "prettier --check ./src",
+    "format:write": "prettier --write ./src",
+    "lint": "eslint ./src"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
-  },
   "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.1",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
     "esbuild": "^0.24.2",
-    "postcss": "^8.4.49",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "globals": "^15.14.0",
+    "postcss": "^8.5.1",
     "postcss-import": "^16.1.0",
     "prettier": "^3.4.2",
     "rimraf": "^6.0.1"
