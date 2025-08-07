@@ -1,5 +1,9 @@
 # eleventy_local_development
 
+![CI](https://github.com/ryuta-watanabe/eleventy_local_development/actions/workflows/ci.yml/badge.svg)
+![npm](https://img.shields.io/npm/v/@11ty/eleventy?color=cb3837&label=eleventy)
+![dependencies](https://img.shields.io/librariesio/release/npm/@11ty/eleventy)
+
 静的サイトジェネレーター「Eleventy (11ty)」を使ったローカル開発用プロジェクトです。
 
 ## 概要
